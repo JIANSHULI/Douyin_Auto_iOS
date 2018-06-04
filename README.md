@@ -1,7 +1,7 @@
 # 教你用 Python 自动控制手机（目前主要针对抖音和微信跳一跳）
 
 ## 抖音
-- conda create -n Your_Virtual_Environment_Name python=3.x.y \n
+- conda create -n Your_Virtual_Environment_Name python=3.x.y
 - source activate PATH_to_Your_Virtual_Environment
 - cd PATH_to_Your_Virtual_Environment/lib/python3.x/site-packages/
 - git clone https://github.com/JIANSHULI/Douyin_Auto_iOS.git
