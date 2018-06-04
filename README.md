@@ -2,6 +2,7 @@
 
 ## 抖音
 DouYin_wechat_jump_auto_iOS.py
+URL: Need to be replace by your own, acquired from WebDriverAgent testing output.
 
 
 ## 使用教程
