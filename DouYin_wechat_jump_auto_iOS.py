@@ -277,7 +277,7 @@ def main():
         Save_Whole = True
         Save_Face = True
         for i in range(Max_Try):
-            c = wda.Client(url='http://18.189.58.186:8100')
+            c = wda.Client(url='http://18.189.58.186:8100') # Please replace this by your own url from WebDriverAgent output.
             s = c.session()
             # s.swipe_up_pro()
             time.sleep(3)
@@ -322,7 +322,7 @@ def main():
                 # 是个美人儿~关注点赞走一波
                 if beauty > BEAUTY_THRESHOLD:
                     print('发现漂亮妹子！！！')
-                    print('漂亮指数: %s' %beauty)
+                    print('颜值: %s' %beauty)
                     if Like_Her:
                         for i in range(int((beauty - BEAUTY_THRESHOLD)/((100 - BEAUTY_THRESHOLD)/Likes_max) + 1)):
                             s.double_tap(x=w/2, y=h/2)
@@ -335,7 +335,7 @@ def main():
                         # time.sleep(0.2)
                     time.sleep(3)
                 else:
-                    print('漂亮指数: %s' % beauty)
+                    print('颜值: %s' % beauty)
             
             try:
                 s.swipe_up_pro()
