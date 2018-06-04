@@ -1,7 +1,5 @@
-# 教你用 Python 来玩微信跳一跳
-[![GitHub stars](https://img.shields.io/github/stars/wangshub/wechat_jump_game.svg)](https://github.com/wangshub/wechat_jump_game/stargazers) [![GitHub forks](https://img.shields.io/github/forks/wangshub/wechat_jump_game.svg)](https://github.com/wangshub/wechat_jump_game/network) [![GitHub license](https://img.shields.io/github/license/wangshub/wechat_jump_game.svg)](https://github.com/wangshub/wechat_jump_game/blob/master/LICENSE)
+# 教你用 Python 自动控制手机（目前主要针对抖音和来玩微信跳一跳）
 
-[![Throughput Graph](https://graphs.waffle.io/wangshub/wechat_jump_game/throughput.svg)](https://waffle.io/wangshub/wechat_jump_game/metrics/throughput) 
 
 ## 游戏模式
 
